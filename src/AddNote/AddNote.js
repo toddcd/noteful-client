@@ -143,7 +143,7 @@ export default class AddNote extends Component {
       modified: new Date(),
     }
 
-      const reqUrl =`${config.API_ENDPOINT}/notes`;
+      const reqUrl =`${config.API_ENDPOINT}/api/notes`;
 
     fetch(reqUrl, {
       method: 'POST',

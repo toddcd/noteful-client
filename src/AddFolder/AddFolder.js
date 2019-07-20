@@ -68,7 +68,7 @@ export default class AddFolder extends Component {
         const folder = {
             name: e.target['folder-name'].value
         }
-        const reqUrl =`${config.API_ENDPOINT}/folders`;
+        const reqUrl =`${config.API_ENDPOINT}/api/folders`;
 
         fetch(reqUrl, {
             method: 'POST',
